@@ -1,0 +1,127 @@
+11:04:58 **** Clean-only build of configuration Debug for project Proyect1_v_3_1 ****
+make clean 
+rm -rf  ./src/Proyect1_v_3_1.o ./src/Validation.o  ./src/Proyect1_v_3_1.d ./src/Validation.d  Proyect1_v_3_1.exe
+ 
+11:04:59 **** Build of configuration Debug for project Proyect1_v_3_1 ****
+make all 
+Building file: ../src/Proyect1_v_3_1.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proyect1_v_3_1.d" -MT"src/Proyect1_v_3_1.o" -o "src/Proyect1_v_3_1.o" "../src/Proyect1_v_3_1.cpp"
+Finished building: ../src/Proyect1_v_3_1.cpp
+ 
+Building file: ../src/Validation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Validation.d" -MT"src/Validation.o" -o "src/Validation.o" "../src/Validation.cpp"
+Finished building: ../src/Validation.cpp
+ 
+Building target: Proyect1_v_3_1.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Proyect1_v_3_1.exe"  ./src/Proyect1_v_3_1.o ./src/Validation.o   
+Finished building target: Proyect1_v_3_1.exe
+ 
+11:05:17 **** Incremental Build of configuration Debug for project Proyect1_v_3_1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:05:48 **** Incremental Build of configuration Debug for project Proyect1_v_3_1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:06:58 **** Clean-only build of configuration Debug for project Proy1_v3_2 ****
+make clean 
+rm -rf  ./src/Proy1_v3_2.o ./src/Val2.o  ./src/Proy1_v3_2.d ./src/Val2.d  Proy1_v3_2.exe
+ 
+11:06:59 **** Build of configuration Debug for project Proy1_v3_2 ****
+make all 
+Building file: ../src/Proy1_v3_2.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proy1_v3_2.d" -MT"src/Proy1_v3_2.o" -o "src/Proy1_v3_2.o" "../src/Proy1_v3_2.cpp"
+Finished building: ../src/Proy1_v3_2.cpp
+ 
+Building file: ../src/Val2.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Val2.d" -MT"src/Val2.o" -o "src/Val2.o" "../src/Val2.cpp"
+Finished building: ../src/Val2.cpp
+ 
+Building target: Proy1_v3_2.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Proy1_v3_2.exe"  ./src/Proy1_v3_2.o ./src/Val2.o   
+Finished building target: Proy1_v3_2.exe
+ 
+11:07:02 **** Clean-only build of configuration Debug for project Proy1_v_1 ****
+make clean 
+rm -rf  ./src/Proy1_v_1.o  ./src/Proy1_v_1.d  Proy1_v_1.exe
+ 
+11:07:02 **** Build of configuration Debug for project Proy1_v_1 ****
+make all 
+Building file: ../src/Proy1_v_1.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proy1_v_1.d" -MT"src/Proy1_v_1.o" -o "src/Proy1_v_1.o" "../src/Proy1_v_1.cpp"
+../src/Proy1_v_1.cpp: In function 'int main()':
+../src/Proy1_v_1.cpp:20:6: warning: unused variable 'currMonth' [-Wunused-variable]
+  int currMonth = 1 + ltm->tm_mon;
+      ^
+../src/Proy1_v_1.cpp:21:6: warning: unused variable 'currDay' [-Wunused-variable]
+  int currDay = ltm->tm_mday;
+      ^
+../src/Proy1_v_1.cpp:24:12: warning: unused variable 'maxMonth' [-Wunused-variable]
+  const int maxMonth = 12;
+            ^
+../src/Proy1_v_1.cpp:27:12: warning: unused variable 'secPerDay' [-Wunused-variable]
+  const int secPerDay = 86400;
+            ^
+Finished building: ../src/Proy1_v_1.cpp
+ 
+Building target: Proy1_v_1.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Proy1_v_1.exe"  ./src/Proy1_v_1.o   
+Finished building target: Proy1_v_1.exe
+ 
+11:07:05 **** Incremental Build of configuration Debug for project Proyect1_v_3_1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:07:05 **** Clean-only build of configuration Debug for project Proyect_2 ****
+make clean 
+rm -rf  ./src/Proyect_2.o ./src/validations.o  ./src/Proyect_2.d ./src/validations.d  Proyect_2.exe
+ 
+11:07:06 **** Build of configuration Debug for project Proyect_2 ****
+make all 
+Building file: ../src/Proyect_2.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proyect_2.d" -MT"src/Proyect_2.o" -o "src/Proyect_2.o" "../src/Proyect_2.cpp"
+../src/Proyect_2.cpp:49:2: warning: "/*" within comment [-Wcomment]
+  /*Validations::error torta;
+  ^
+../src/Proyect_2.cpp: In function 'int main()':
+../src/Proyect_2.cpp:28:12: warning: unused variable 'secPerDay' [-Wunused-variable]
+  const int secPerDay = 86400;
+            ^
+Finished building: ../src/Proyect_2.cpp
+ 
+Building file: ../src/validations.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/validations.d" -MT"src/validations.o" -o "src/validations.o" "../src/validations.cpp"
+../src/validations.cpp: In function 'int validateMonth(int, int, int, int)':
+../src/validations.cpp:43:16: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if((yearMatch == 1 & inputMonth >currMonth ) || (inputMonth > maxMonth || inputMonth < 1 )){
+                ^
+../src/validations.cpp: In function 'int findMaxDaysMonth(int, int)':
+../src/validations.cpp:62:24: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  } else if (inputMonth == 2 & bisiesto == 1){
+                        ^
+../src/validations.cpp: In function 'int match2Items(int, int)':
+../src/validations.cpp:77:7: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if (x==1 & y==1){
+       ^
+../src/validations.cpp: In function 'int findDayError(int, int, int, int)':
+../src/validations.cpp:86:21: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if ((yearMonthMatch==1 & inputDay > currDay) || (inputDay > maxDaysMonth) || (inputDay <= 0 || (maxDaysMonth >= 32))){
+                     ^
+Finished building: ../src/validations.cpp
+ 
+Building target: Proyect_2.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Proyect_2.exe"  ./src/Proyect_2.o ./src/validations.o   
+Finished building target: Proyect_2.exe
+ 
+11:07:09 **** Incremental Build of configuration Debug for project Shit ****
+make all 
+make: Nothing to be done for 'all'.
