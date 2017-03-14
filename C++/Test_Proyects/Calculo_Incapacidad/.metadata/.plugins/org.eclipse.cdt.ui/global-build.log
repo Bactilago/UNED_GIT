@@ -537,3 +537,51 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o"
   shit = string Cons::asignName(shit);
                 ^
 make: *** [src/subdir.mk:23: src/Test.o] Error 1
+18:28:43 **** Incremental Build of configuration Debug for project Test_Constr ****
+make all 
+Building file: ../src/Test_Constr.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test_Constr.d" -MT"src/Test_Constr.o" -o "src/Test_Constr.o" "../src/Test_Constr.cpp"
+Finished building: ../src/Test_Constr.cpp
+ 
+Building target: Test_Constr.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test_Constr.exe"  ./src/ConsEmpl.o ./src/Test_Constr.o   
+Finished building target: Test_Constr.exe
+ 
+18:29:01 **** Incremental Build of configuration Debug for project Test_Constr ****
+make all 
+Building file: ../src/Test_Constr.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test_Constr.d" -MT"src/Test_Constr.o" -o "src/Test_Constr.o" "../src/Test_Constr.cpp"
+../src/Test_Constr.cpp: In function 'int main()':
+../src/Test_Constr.cpp:16:6: warning: statement has no effect [-Wunused-value]
+  name;
+      ^
+Finished building: ../src/Test_Constr.cpp
+ 
+Building target: Test_Constr.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test_Constr.exe"  ./src/ConsEmpl.o ./src/Test_Constr.o   
+Finished building target: Test_Constr.exe
+ 
+18:29:32 **** Incremental Build of configuration Debug for project Test_Constr ****
+make all 
+Building file: ../src/Test_Constr.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test_Constr.d" -MT"src/Test_Constr.o" -o "src/Test_Constr.o" "../src/Test_Constr.cpp"
+../src/Test_Constr.cpp: In function 'int main()':
+../src/Test_Constr.cpp:16:27: error: cannot call member function 'std::string ConsEmpl::getName()' without object
+  name = ConsEmpl::getName();
+                           ^
+make: *** [src/subdir.mk:23: src/Test_Constr.o] Error 1
+18:29:46 **** Incremental Build of configuration Debug for project Test_Constr ****
+make all 
+Building file: ../src/Test_Constr.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test_Constr.d" -MT"src/Test_Constr.o" -o "src/Test_Constr.o" "../src/Test_Constr.cpp"
+../src/Test_Constr.cpp: In function 'int main()':
+../src/Test_Constr.cpp:16:17: error: 'getName' was not declared in this scope
+  name = getName();
+                 ^
+make: *** [src/subdir.mk:23: src/Test_Constr.o] Error 1
