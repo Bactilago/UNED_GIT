@@ -1,0 +1,16 @@
+/*
+ * Cons.h
+ *
+ *  Created on: Mar 13, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef CONS_H_
+#define CONS_H_
+
+class Cons {
+public:
+	Cons();
+};
+
+#endif /* CONS_H_ */

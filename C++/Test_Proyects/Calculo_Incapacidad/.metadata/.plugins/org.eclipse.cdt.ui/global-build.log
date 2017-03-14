@@ -1,127 +1,539 @@
-11:04:58 **** Clean-only build of configuration Debug for project Proyect1_v_3_1 ****
-make clean 
-rm -rf  ./src/Proyect1_v_3_1.o ./src/Validation.o  ./src/Proyect1_v_3_1.d ./src/Validation.d  Proyect1_v_3_1.exe
- 
-11:04:59 **** Build of configuration Debug for project Proyect1_v_3_1 ****
+11:53:50 **** Build of configuration Debug for project Test ****
 make all 
-Building file: ../src/Proyect1_v_3_1.cpp
+Building file: ../src/Test.cpp
 Invoking: Cygwin C++ Compiler
-g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proyect1_v_3_1.d" -MT"src/Proyect1_v_3_1.o" -o "src/Proyect1_v_3_1.o" "../src/Proyect1_v_3_1.cpp"
-Finished building: ../src/Proyect1_v_3_1.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
  
-Building file: ../src/Validation.cpp
-Invoking: Cygwin C++ Compiler
-g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Validation.d" -MT"src/Validation.o" -o "src/Validation.o" "../src/Validation.cpp"
-Finished building: ../src/Validation.cpp
- 
-Building target: Proyect1_v_3_1.exe
+Building target: Test.exe
 Invoking: Cygwin C++ Linker
-g++  -o "Proyect1_v_3_1.exe"  ./src/Proyect1_v_3_1.o ./src/Validation.o   
-Finished building target: Proyect1_v_3_1.exe
+g++  -o "Test.exe"  ./src/Test.o   
+Finished building target: Test.exe
  
-11:05:17 **** Incremental Build of configuration Debug for project Proyect1_v_3_1 ****
+11:53:54 **** Incremental Build of configuration Debug for project Test ****
 make all 
 make: Nothing to be done for 'all'.
-11:05:48 **** Incremental Build of configuration Debug for project Proyect1_v_3_1 ****
+11:54:20 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Cons.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+Finished building: ../src/Cons.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+11:54:33 **** Incremental Build of configuration Debug for project Test ****
 make all 
 make: Nothing to be done for 'all'.
-11:06:58 **** Clean-only build of configuration Debug for project Proy1_v3_2 ****
-make clean 
-rm -rf  ./src/Proy1_v3_2.o ./src/Val2.o  ./src/Proy1_v3_2.d ./src/Val2.d  Proy1_v3_2.exe
- 
-11:06:59 **** Build of configuration Debug for project Proy1_v3_2 ****
+11:55:17 **** Incremental Build of configuration Debug for project Test ****
 make all 
-Building file: ../src/Proy1_v3_2.cpp
+Building file: ../src/Test.cpp
 Invoking: Cygwin C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proy1_v3_2.d" -MT"src/Proy1_v3_2.o" -o "src/Proy1_v3_2.o" "../src/Proy1_v3_2.cpp"
-Finished building: ../src/Proy1_v3_2.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
  
-Building file: ../src/Val2.cpp
-Invoking: Cygwin C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Val2.d" -MT"src/Val2.o" -o "src/Val2.o" "../src/Val2.cpp"
-Finished building: ../src/Val2.cpp
- 
-Building target: Proy1_v3_2.exe
+Building target: Test.exe
 Invoking: Cygwin C++ Linker
-g++  -o "Proy1_v3_2.exe"  ./src/Proy1_v3_2.o ./src/Val2.o   
-Finished building target: Proy1_v3_2.exe
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
  
-11:07:02 **** Clean-only build of configuration Debug for project Proy1_v_1 ****
-make clean 
-rm -rf  ./src/Proy1_v_1.o  ./src/Proy1_v_1.d  Proy1_v_1.exe
- 
-11:07:02 **** Build of configuration Debug for project Proy1_v_1 ****
+11:55:29 **** Incremental Build of configuration Debug for project Test ****
 make all 
-Building file: ../src/Proy1_v_1.cpp
+Building file: ../src/Cons.cpp
 Invoking: Cygwin C++ Compiler
-g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proy1_v_1.d" -MT"src/Proy1_v_1.o" -o "src/Proy1_v_1.o" "../src/Proy1_v_1.cpp"
-../src/Proy1_v_1.cpp: In function 'int main()':
-../src/Proy1_v_1.cpp:20:6: warning: unused variable 'currMonth' [-Wunused-variable]
-  int currMonth = 1 + ltm->tm_mon;
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+Finished building: ../src/Cons.cpp
+ 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+11:56:34 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Cons.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+Finished building: ../src/Cons.cpp
+ 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+11:56:55 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Cons.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+Finished building: ../src/Cons.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+11:58:06 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Cons.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+Finished building: ../src/Cons.cpp
+ 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+11:58:26 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Cons.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+Finished building: ../src/Cons.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+12:00:56 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+../src/Test.cpp: In function 'int main()':
+../src/Test.cpp:16:6: warning: statement has no effect [-Wunused-value]
+  name;
       ^
-../src/Proy1_v_1.cpp:21:6: warning: unused variable 'currDay' [-Wunused-variable]
-  int currDay = ltm->tm_mday;
-      ^
-../src/Proy1_v_1.cpp:24:12: warning: unused variable 'maxMonth' [-Wunused-variable]
-  const int maxMonth = 12;
-            ^
-../src/Proy1_v_1.cpp:27:12: warning: unused variable 'secPerDay' [-Wunused-variable]
-  const int secPerDay = 86400;
-            ^
-Finished building: ../src/Proy1_v_1.cpp
+Finished building: ../src/Test.cpp
  
-Building target: Proy1_v_1.exe
+Building target: Test.exe
 Invoking: Cygwin C++ Linker
-g++  -o "Proy1_v_1.exe"  ./src/Proy1_v_1.o   
-Finished building target: Proy1_v_1.exe
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
  
-11:07:05 **** Incremental Build of configuration Debug for project Proyect1_v_3_1 ****
+12:01:36 **** Incremental Build of configuration Debug for project Test ****
 make all 
-make: Nothing to be done for 'all'.
-11:07:05 **** Clean-only build of configuration Debug for project Proyect_2 ****
-make clean 
-rm -rf  ./src/Proyect_2.o ./src/validations.o  ./src/Proyect_2.d ./src/validations.d  Proyect_2.exe
- 
-11:07:06 **** Build of configuration Debug for project Proyect_2 ****
-make all 
-Building file: ../src/Proyect_2.cpp
+Building file: ../src/Test.cpp
 Invoking: Cygwin C++ Compiler
-g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proyect_2.d" -MT"src/Proyect_2.o" -o "src/Proyect_2.o" "../src/Proyect_2.cpp"
-../src/Proyect_2.cpp:49:2: warning: "/*" within comment [-Wcomment]
-  /*Validations::error torta;
-  ^
-../src/Proyect_2.cpp: In function 'int main()':
-../src/Proyect_2.cpp:28:12: warning: unused variable 'secPerDay' [-Wunused-variable]
-  const int secPerDay = 86400;
-            ^
-Finished building: ../src/Proyect_2.cpp
- 
-Building file: ../src/validations.cpp
-Invoking: Cygwin C++ Compiler
-g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/validations.d" -MT"src/validations.o" -o "src/validations.o" "../src/validations.cpp"
-../src/validations.cpp: In function 'int validateMonth(int, int, int, int)':
-../src/validations.cpp:43:16: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  if((yearMatch == 1 & inputMonth >currMonth ) || (inputMonth > maxMonth || inputMonth < 1 )){
-                ^
-../src/validations.cpp: In function 'int findMaxDaysMonth(int, int)':
-../src/validations.cpp:62:24: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  } else if (inputMonth == 2 & bisiesto == 1){
-                        ^
-../src/validations.cpp: In function 'int match2Items(int, int)':
-../src/validations.cpp:77:7: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  if (x==1 & y==1){
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+../src/Test.cpp: In function 'int main()':
+../src/Test.cpp:16:33: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and 'Cons')
+  cout << "Nombre de Empleado: " << name << endl;;
+                                 ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
        ^
-../src/validations.cpp: In function 'int findDayError(int, int, int, int)':
-../src/validations.cpp:86:21: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  if ((yearMonthMatch==1 & inputDay > currDay) || (inputDay > maxDaysMonth) || (inputDay <= 0 || (maxDaysMonth >= 32))){
-                     ^
-Finished building: ../src/validations.cpp
- 
-Building target: Proyect_2.exe
-Invoking: Cygwin C++ Linker
-g++  -o "Proyect_2.exe"  ./src/Proyect_2.o ./src/validations.o   
-Finished building target: Proyect_2.exe
- 
-11:07:09 **** Incremental Build of configuration Debug for project Shit ****
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from 'Cons' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from 'Cons' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from 'Cons' to 'std::ios_base& (*)(std::ios_base&)'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from 'Cons' to 'long int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from 'Cons' to 'long unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from 'Cons' to 'bool'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from 'Cons' to 'short int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from 'Cons' to 'short unsigned int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from 'Cons' to 'int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from 'Cons' to 'unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from 'Cons' to 'long long int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from 'Cons' to 'long long unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from 'Cons' to 'double'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from 'Cons' to 'float'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from 'Cons' to 'long double'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from 'Cons' to 'const void*'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from 'Cons' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:5172:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:5172:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   'Cons' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   deduced conflicting types for parameter '_CharT' ('char' and 'Cons')
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   cannot convert 'name' (type 'Cons') to type 'char'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   cannot convert 'name' (type 'Cons') to type 'char'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   cannot convert 'name' (type 'Cons') to type 'signed char'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   cannot convert 'name' (type 'Cons') to type 'unsigned char'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   mismatched types 'const _CharT*' and 'Cons'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   cannot convert 'name' (type 'Cons') to type 'const char*'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   cannot convert 'name' (type 'Cons') to type 'const char*'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   cannot convert 'name' (type 'Cons') to type 'const signed char*'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:36: note:   cannot convert 'name' (type 'Cons') to type 'const unsigned char*'
+  cout << "Nombre de Empleado: " << name << endl;;
+                                    ^
+make: *** [src/subdir.mk:23: src/Test.o] Error 1
+12:01:49 **** Incremental Build of configuration Debug for project Test ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+12:02:45 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+In file included from ../src/Test.cpp:10:0:
+../src/Cons.h: In function 'int main()':
+../src/Cons.h:16:9: error: 'std::string Cons::name' is private
+  string name;
+         ^
+../src/Test.cpp:16:15: error: within this context
+  name = Cons::name;
+               ^
+../src/Test.cpp:16:15: error: invalid use of non-static data member 'Cons::name'
+In file included from ../src/Test.cpp:10:0:
+../src/Cons.h:16:9: note: declared here
+  string name;
+         ^
+make: *** [src/subdir.mk:23: src/Test.o] Error 1
+12:11:43 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Cons.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+In file included from ../src/Cons.cpp:8:0:
+../src/Cons.h:20:25: error: expected ';' at end of member declaration
+  string asignName(string)
+                         ^
+make: *** [src/subdir.mk:23: src/Cons.o] Error 1
+12:11:53 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Cons.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+Finished building: ../src/Cons.cpp
+ 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+In file included from ../src/Test.cpp:10:0:
+../src/Cons.h: In function 'int main()':
+../src/Cons.h:16:9: error: 'std::string Cons::name' is private
+  string name;
+         ^
+../src/Test.cpp:16:15: error: within this context
+  name = Cons::name;
+               ^
+../src/Test.cpp:16:15: error: invalid use of non-static data member 'Cons::name'
+In file included from ../src/Test.cpp:10:0:
+../src/Cons.h:16:9: note: declared here
+  string name;
+         ^
+make: *** [src/subdir.mk:23: src/Test.o] Error 1
+12:12:10 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+12:12:29 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+12:13:42 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Cons.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cons.d" -MT"src/Cons.o" -o "src/Cons.o" "../src/Cons.cpp"
+Finished building: ../src/Cons.cpp
+ 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+../src/Test.cpp: In function 'int main()':
+../src/Test.cpp:16:23: error: no matching function for call to 'std::basic_string<char>::basic_string(Cons&)'
+  string asignName(shit);
+                       ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:2936:9: note: candidate: template<class _InputIterator> std::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&)
+         basic_string(_InputIterator __beg, _InputIterator __end,
+         ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:2936:9: note:   template argument deduction/substitution failed:
+../src/Test.cpp:16:23: note:   candidate expects 3 arguments, 1 provided
+  string asignName(shit);
+                       ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/string:53:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:663:5: note: candidate: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+     basic_string<_CharT, _Traits, _Alloc>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:663:5: note:   candidate expects 3 arguments, 1 provided
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:656:5: note: candidate: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+     basic_string<_CharT, _Traits, _Alloc>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:656:5: note:   no known conversion for argument 1 from 'Cons' to 'const char*'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:649:5: note: candidate: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, std::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+     basic_string<_CharT, _Traits, _Alloc>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:649:5: note:   candidate expects 3 arguments, 1 provided
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:637:5: note: candidate: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::basic_string<_CharT, _Traits, _Alloc>&, std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+     basic_string<_CharT, _Traits, _Alloc>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:637:5: note:   candidate expects 4 arguments, 1 provided
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:627:5: note: candidate: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::basic_string<_CharT, _Traits, _Alloc>&, std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+     basic_string<_CharT, _Traits, _Alloc>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:627:5: note:   candidate expects 3 arguments, 1 provided
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:613:5: note: candidate: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+     basic_string<_CharT, _Traits, _Alloc>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:613:5: note:   no known conversion for argument 1 from 'Cons' to 'const std::basic_string<char>&'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:621:5: note: candidate: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+     basic_string<_CharT, _Traits, _Alloc>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.tcc:621:5: note:   no known conversion for argument 1 from 'Cons' to 'const std::allocator<char>&'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Test.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:2838:7: note: candidate: std::basic_string<_CharT, _Traits, _Alloc>::basic_string() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       basic_string()
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:2838:7: note:   candidate expects 0 arguments, 1 provided
+make: *** [src/subdir.mk:23: src/Test.o] Error 1
+12:14:20 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+12:15:08 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+../src/Test.cpp: In function 'int main()':
+../src/Test.cpp:17:2: error: expected ';' before 'string'
+  string asignName(shit);
+  ^
+make: *** [src/subdir.mk:23: src/Test.o] Error 1
+12:15:20 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: Test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test.exe"  ./src/Cons.o ./src/Test.o   
+Finished building target: Test.exe
+ 
+12:16:34 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+../src/Test.cpp: In function 'int main()':
+../src/Test.cpp:16:16: error: expected primary-expression before 'Cons'
+  shit = string Cons::asignName(shit);
+                ^
+make: *** [src/subdir.mk:23: src/Test.o] Error 1

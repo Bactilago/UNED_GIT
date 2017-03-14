@@ -1,0 +1,14 @@
+/*
+ * Cons.cpp
+ *
+ *  Created on: Mar 13, 2017
+ *      Author: Human Waste
+ */
+
+#include "Cons.h"
+
+Cons::Cons() {
+	// TODO Auto-generated constructor stub
+
+}
+

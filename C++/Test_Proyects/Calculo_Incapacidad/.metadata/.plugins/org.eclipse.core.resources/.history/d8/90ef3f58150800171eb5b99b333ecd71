@@ -1,0 +1,16 @@
+/*
+ * ConsEmpl.h
+ *
+ *  Created on: Mar 13, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef CONSEMPL_H_
+#define CONSEMPL_H_
+
+class ConsEmpl {
+public:
+	ConsEmpl();
+};
+
+#endif /* CONSEMPL_H_ */

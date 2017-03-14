@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : Shit.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Employee.h"
+using namespace std;
+
+
+/*string getName(){
+	cout << "Ingrese el nombre: " << flush;
+	string nombre;
+	cin >> nombre;
+	cout << "Ingrese el apellido: " << flush;
+	string apellido;
+	cin >> apellido;
+	string nombreCompleto = nombre+" "+apellido;
+	return nombreCompleto;
+}*/
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	//string name = getName();
+	//cout << "Nombre: " << name <<endl;
+	return 0;
+}

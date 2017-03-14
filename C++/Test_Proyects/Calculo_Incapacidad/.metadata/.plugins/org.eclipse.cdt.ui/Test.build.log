@@ -1,0 +1,13 @@
+12:16:34 **** Incremental Build of configuration Debug for project Test ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+../src/Test.cpp: In function 'int main()':
+../src/Test.cpp:16:16: error: expected primary-expression before 'Cons'
+  shit = string Cons::asignName(shit);
+                ^
+make: *** [src/subdir.mk:23: src/Test.o] Error 1
+
+12:16:35 Build Finished (took 1s.110ms)
+
