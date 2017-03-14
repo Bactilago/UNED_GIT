@@ -1,0 +1,17 @@
+/*
+ * Setter.cpp
+ *
+ *  Created on: Mar 13, 2017
+ *      Author: Human Waste
+ */
+
+#include "Setter.h"
+
+Setter::Setter() {
+	name = "George";
+
+}
+
+string Setter::toString(){
+	return "Person's name is: " + name;
+}

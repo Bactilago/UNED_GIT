@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : Setters.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Setter.h"
+using namespace std;
+
+int main() {
+
+	Setter mytime;
+	time_t ahora = mytime.setNow();
+	tm ahoraS = getTime( &ahora);
+
+
+	return 0;
+}

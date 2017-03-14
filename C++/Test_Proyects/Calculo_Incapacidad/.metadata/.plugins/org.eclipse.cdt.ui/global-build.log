@@ -585,3 +585,1716 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test_Constr.d" -MT"src/
   name = getName();
                  ^
 make: *** [src/subdir.mk:23: src/Test_Constr.o] Error 1
+18:38:14 **** Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+18:38:20 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+make: Nothing to be done for 'all'.
+18:50:42 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+18:53:32 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+18:55:58 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+18:57:10 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+18:58:06 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+19:56:27 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+make: Nothing to be done for 'all'.
+19:59:17 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:03:29 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+../src/Setter.cpp: In member function 'void Setter::setTime(tm)':
+../src/Setter.cpp:25:6: error: cannot convert 'tm' to 'time_t {aka long int}' in assignment
+  hoy = today;
+      ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+20:05:13 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:9: warning: unused variable 'hoy' [-Wunused-variable]
+  time_t hoy = time(0);
+         ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:05:32 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:06:51 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:13:7: error: no match for 'operator=' (operand types are 'tm' and 'tm*')
+  *ltm = localtime(&hoy);
+       ^
+In file included from /usr/include/pthread.h:14:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin/bits/gthr-default.h:35,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin/bits/gthr.h:148,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ext/atomicity.h:35,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ios_base.h:39,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setter.h:11,
+                 from ../src/Setter.cpp:8:
+/usr/include/time.h:33:8: note: candidate: tm& tm::operator=(const tm&)
+ struct tm
+        ^
+/usr/include/time.h:33:8: note:   no known conversion for argument 1 from 'tm*' to 'const tm&'
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+20:07:30 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+In file included from ../src/Setter.cpp:8:0:
+../src/Setter.h:19:3: error: expected ';' at end of member declaration
+  *tm ltm;
+   ^
+../src/Setter.h:19:6: error: 'ltm' does not name a type
+  *tm ltm;
+      ^
+../src/Setter.h:26:15: error: 'tm' is not a type
+  void setTime(tm today);
+               ^
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:13:2: error: 'ltm' was not declared in this scope
+  ltm = localtime(&hoy);
+  ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+20:07:39 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+In file included from ../src/Setter.cpp:8:0:
+../src/Setter.h:19:3: error: expected ';' at end of member declaration
+  *tm *ltm;
+   ^
+../src/Setter.h:26:15: error: 'tm' is not a type
+  void setTime(tm today);
+               ^
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:13:6: error: cannot convert 'tm*' to 'int*' in assignment
+  ltm = localtime(&hoy);
+      ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+20:10:21 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp:26:6: error: prototype for 'void Setter::getTime(time_t)' does not match any in class 'Setter'
+ void Setter::getTime(time_t){
+      ^
+In file included from ../src/Setter.cpp:8:0:
+../src/Setter.h:27:7: error: candidate is: void Setter::getTime()
+  void getTime();
+       ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+20:10:37 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:11:53 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:13:30 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:15:53 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:16:15: error: 'hoy' was not declared in this scope
+  now.getTime(&hoy);
+               ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:17:40 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:16:15: error: 'hoy' was not declared in this scope
+  now.getTime(&hoy);
+               ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:19:03 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:19:53 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:16:9: error: no match for 'operator=' (operand types are 'Setter' and 'void')
+   mytime= mytime.setNow();
+         ^
+In file included from ../src/Setters.cpp:10:0:
+../src/Setter.h:15:7: note: candidate: Setter& Setter::operator=(const Setter&)
+ class Setter {
+       ^
+../src/Setter.h:15:7: note:   no known conversion for argument 1 from 'void' to 'const Setter&'
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:20:19 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:16:8: error: no match for 'operator<<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'void')
+   cout << mytime.setNow() << endl;
+        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from 'void' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from 'void' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from 'void' to 'std::ios_base& (*)(std::ios_base&)'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from 'void' to 'long int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from 'void' to 'long unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from 'void' to 'bool'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from 'void' to 'short int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from 'void' to 'short unsigned int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from 'void' to 'int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from 'void' to 'unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from 'void' to 'long long int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from 'void' to 'long long unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from 'void' to 'double'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from 'void' to 'float'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from 'void' to 'long double'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from 'void' to 'const void*'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from 'void' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:5172:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:5172:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:25: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'void'
+   cout << mytime.setNow() << endl;
+                         ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:25: note:   deduced conflicting types for parameter '_CharT' ('char' and 'void')
+   cout << mytime.setNow() << endl;
+                         ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:24: note:   cannot convert 'mytime.Setter::setNow()' (type 'void') to type 'char'
+   cout << mytime.setNow() << endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:24: note:   cannot convert 'mytime.Setter::setNow()' (type 'void') to type 'char'
+   cout << mytime.setNow() << endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:24: note:   cannot convert 'mytime.Setter::setNow()' (type 'void') to type 'signed char'
+   cout << mytime.setNow() << endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:24: note:   cannot convert 'mytime.Setter::setNow()' (type 'void') to type 'unsigned char'
+   cout << mytime.setNow() << endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:25: note:   mismatched types 'const _CharT*' and 'void'
+   cout << mytime.setNow() << endl;
+                         ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:24: note:   cannot convert 'mytime.Setter::setNow()' (type 'void') to type 'const char*'
+   cout << mytime.setNow() << endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:24: note:   cannot convert 'mytime.Setter::setNow()' (type 'void') to type 'const char*'
+   cout << mytime.setNow() << endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:24: note:   cannot convert 'mytime.Setter::setNow()' (type 'void') to type 'const signed char*'
+   cout << mytime.setNow() << endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:16:24: note:   cannot convert 'mytime.Setter::setNow()' (type 'void') to type 'const unsigned char*'
+   cout << mytime.setNow() << endl;
+                        ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:20:35 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:21:44 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:16:31: error: void value not ignored as it ought to be
+  time_t ahora = mytime.setNow();
+                               ^
+../src/Setters.cpp:16:9: warning: unused variable 'ahora' [-Wunused-variable]
+  time_t ahora = mytime.setNow();
+         ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:24:10 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:16:9: warning: unused variable 'ahora' [-Wunused-variable]
+  time_t ahora = mytime.setNow();
+         ^
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:25:13 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:17:29: error: 'getTime' was not declared in this scope
+  tm ahoraS = getTime( &ahora);
+                             ^
+../src/Setters.cpp:17:5: warning: unused variable 'ahoraS' [-Wunused-variable]
+  tm ahoraS = getTime( &ahora);
+     ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:25:38 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:17:36: error: invalid conversion from 'time_t* {aka long int*}' to 'time_t {aka long int}' [-fpermissive]
+  tm ahoraS = mytime.getTime( &ahora);
+                                    ^
+In file included from ../src/Setters.cpp:10:0:
+../src/Setter.h:28:5: note:   initializing argument 1 of 'tm Setter::getTime(time_t&)'
+  tm getTime(time_t &hoy);
+     ^
+../src/Setters.cpp:17:36: error: cannot bind rvalue '(time_t)(& ahora)' to 'time_t& {aka long int&}'
+  tm ahoraS = mytime.getTime( &ahora);
+                                    ^
+../src/Setters.cpp:17:5: warning: unused variable 'ahoraS' [-Wunused-variable]
+  tm ahoraS = mytime.getTime( &ahora);
+     ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:27:01 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:27:19 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:17:5: warning: variable 'pinga' set but not used [-Wunused-but-set-variable]
+  tm pinga =mytime.getTime(ahora);
+     ^
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:27:43 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:18:7: error: no match for 'operator<<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'tm')
+  cout << pinga << endl;
+       ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from 'tm' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from 'tm' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from 'tm' to 'std::ios_base& (*)(std::ios_base&)'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from 'tm' to 'long int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from 'tm' to 'long unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from 'tm' to 'bool'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from 'tm' to 'short int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from 'tm' to 'short unsigned int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from 'tm' to 'int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from 'tm' to 'unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from 'tm' to 'long long int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from 'tm' to 'long long unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from 'tm' to 'double'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from 'tm' to 'float'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from 'tm' to 'long double'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from 'tm' to 'const void*'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from 'tm' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:5172:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:5172:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   'tm' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   deduced conflicting types for parameter '_CharT' ('char' and 'tm')
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   cannot convert 'pinga' (type 'tm') to type 'char'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   cannot convert 'pinga' (type 'tm') to type 'char'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   cannot convert 'pinga' (type 'tm') to type 'signed char'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   cannot convert 'pinga' (type 'tm') to type 'unsigned char'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   mismatched types 'const _CharT*' and 'tm'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   cannot convert 'pinga' (type 'tm') to type 'const char*'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   cannot convert 'pinga' (type 'tm') to type 'const char*'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   cannot convert 'pinga' (type 'tm') to type 'const signed char*'
+  cout << pinga << endl;
+          ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/Setters.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/Setters.cpp:18:10: note:   cannot convert 'pinga' (type 'tm') to type 'const unsigned char*'
+  cout << pinga << endl;
+          ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:27:53 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:17:5: warning: variable 'pinga' set but not used [-Wunused-but-set-variable]
+  tm pinga =mytime.getTime(ahora);
+     ^
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:29:02 **** Build of configuration Debug for project TimeTest ****
+make all 
+Building file: ../src/TimeTest.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TimeTest.d" -MT"src/TimeTest.o" -o "src/TimeTest.o" "../src/TimeTest.cpp"
+Finished building: ../src/TimeTest.cpp
+ 
+Building target: TimeTest.exe
+Invoking: Cygwin C++ Linker
+g++  -o "TimeTest.exe"  ./src/TimeTest.o   
+Finished building target: TimeTest.exe
+ 
+20:29:06 **** Incremental Build of configuration Debug for project TimeTest ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:28 **** Incremental Build of configuration Debug for project TimeTest ****
+make all 
+Building file: ../src/TimeTest.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TimeTest.d" -MT"src/TimeTest.o" -o "src/TimeTest.o" "../src/TimeTest.cpp"
+../src/TimeTest.cpp: In function 'int main()':
+../src/TimeTest.cpp:15:6: warning: unused variable 'ltm' [-Wunused-variable]
+  tm *ltm = localtime(&hoy);
+      ^
+Finished building: ../src/TimeTest.cpp
+ 
+Building target: TimeTest.exe
+Invoking: Cygwin C++ Linker
+g++  -o "TimeTest.exe"  ./src/TimeTest.o   
+Finished building target: TimeTest.exe
+ 
+20:29:48 **** Incremental Build of configuration Debug for project TimeTest ****
+make all 
+Building file: ../src/TimeTest.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TimeTest.d" -MT"src/TimeTest.o" -o "src/TimeTest.o" "../src/TimeTest.cpp"
+../src/TimeTest.cpp: In function 'int main()':
+../src/TimeTest.cpp:16:7: error: no match for 'operator<<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'tm')
+  cout << *ltm << endl;
+       ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from 'tm' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from 'tm' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from 'tm' to 'std::ios_base& (*)(std::ios_base&)'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from 'tm' to 'long int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from 'tm' to 'long unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from 'tm' to 'bool'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from 'tm' to 'short int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from 'tm' to 'short unsigned int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from 'tm' to 'int'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from 'tm' to 'unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from 'tm' to 'long long int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from 'tm' to 'long long unsigned int'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from 'tm' to 'double'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from 'tm' to 'float'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from 'tm' to 'long double'
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from 'tm' to 'const void*'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from 'tm' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:5172:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/basic_string.h:5172:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   'tm' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   deduced conflicting types for parameter '_CharT' ('char' and 'tm')
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   cannot convert '* ltm' (type 'tm') to type 'char'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   cannot convert '* ltm' (type 'tm') to type 'char'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   cannot convert '* ltm' (type 'tm') to type 'signed char'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   cannot convert '* ltm' (type 'tm') to type 'unsigned char'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   mismatched types 'const _CharT*' and 'tm'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   cannot convert '* ltm' (type 'tm') to type 'const char*'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   cannot convert '* ltm' (type 'tm') to type 'const char*'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   cannot convert '* ltm' (type 'tm') to type 'const signed char*'
+  cout << *ltm << endl;
+           ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/iostream:39:0,
+                 from ../src/TimeTest.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/TimeTest.cpp:16:11: note:   cannot convert '* ltm' (type 'tm') to type 'const unsigned char*'
+  cout << *ltm << endl;
+           ^
+make: *** [src/subdir.mk:20: src/TimeTest.o] Error 1
+20:30:26 **** Incremental Build of configuration Debug for project TimeTest ****
+make all 
+Building file: ../src/TimeTest.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TimeTest.d" -MT"src/TimeTest.o" -o "src/TimeTest.o" "../src/TimeTest.cpp"
+../src/TimeTest.cpp: In function 'int main()':
+../src/TimeTest.cpp:15:6: warning: unused variable 'ltm' [-Wunused-variable]
+  tm *ltm = localtime(&hoy);
+      ^
+Finished building: ../src/TimeTest.cpp
+ 
+Building target: TimeTest.exe
+Invoking: Cygwin C++ Linker
+g++  -o "TimeTest.exe"  ./src/TimeTest.o   
+Finished building target: TimeTest.exe
+ 
+20:31:13 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:19:29: error: base operand of '->' has non-pointer type 'tm'
+  int currYear = 1900 + pinga->tm_year;
+                             ^
+../src/Setters.cpp:19:6: warning: unused variable 'currYear' [-Wunused-variable]
+  int currYear = 1900 + pinga->tm_year;
+      ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:31:38 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:17:33: error: cannot convert 'tm' to 'tm*' in initialization
+  tm *pinga =mytime.getTime(ahora);
+                                 ^
+../src/Setters.cpp:19:6: warning: unused variable 'currYear' [-Wunused-variable]
+  int currYear = 1900 + pinga->tm_year;
+      ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:32:05 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:19:29: error: base operand of '->' has non-pointer type 'tm'
+  int currYear = 1900 + pinga->tm_year;
+                             ^
+../src/Setters.cpp:19:6: warning: unused variable 'currYear' [-Wunused-variable]
+  int currYear = 1900 + pinga->tm_year;
+      ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:33:20 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+../src/Setter.cpp: In member function 'tm* Setter::getTime(time_t&)':
+../src/Setter.cpp:32:10: error: cannot convert 'tm' to 'tm*' in return
+  return *ltm;
+          ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+20:33:41 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:17:26: error: conversion from 'tm*' to non-scalar type 'tm' requested
+  tm pinga =mytime.getTime(ahora);
+                          ^
+../src/Setters.cpp:19:29: error: base operand of '->' has non-pointer type 'tm'
+  int currYear = 1900 + pinga->tm_year;
+                             ^
+../src/Setters.cpp:19:6: warning: unused variable 'currYear' [-Wunused-variable]
+  int currYear = 1900 + pinga->tm_year;
+      ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+20:34:07 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:19:6: warning: unused variable 'currYear' [-Wunused-variable]
+  int currYear = 1900 + pinga->tm_year;
+      ^
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:34:29 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:36:18 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:38:50 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:39:28 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+20:39:59 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:00:56 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+In file included from ../src/Setter.cpp:8:0:
+../src/Setter.h:22:6: error: redeclaration of 'int Setter::currYear'
+  int currYear;
+      ^
+../src/Setter.h:20:6: note: previous declaration 'int Setter::currYear'
+  int currYear;
+      ^
+../src/Setter.h:32:38: error: expected ';' at end of member declaration
+  int getCurrYear(tm date, int tm_year)
+                                      ^
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+../src/Setter.cpp: In member function 'int Setter::getCurrYear(tm, int)':
+../src/Setter.cpp:36:28: error: base operand of '->' has non-pointer type 'tm'
+  int currYear = 1900 + date->tm_year;
+                            ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+21:01:31 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+In file included from ../src/Setter.cpp:8:0:
+../src/Setter.h:32:38: error: expected ';' at end of member declaration
+  int getCurrYear(tm date, int tm_year)
+                                      ^
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+../src/Setter.cpp: In member function 'int Setter::getCurrYear(tm, int)':
+../src/Setter.cpp:36:28: error: base operand of '->' has non-pointer type 'tm'
+  int currYear = 1900 + date->tm_year;
+                            ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+21:01:44 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+../src/Setter.cpp: In member function 'int Setter::getCurrYear(tm, int)':
+../src/Setter.cpp:36:28: error: base operand of '->' has non-pointer type 'tm'
+  int currYear = 1900 + date->tm_year;
+                            ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+21:04:48 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+../src/Setter.cpp: At global scope:
+../src/Setter.cpp:35:5: error: prototype for 'int Setter::getCurrYear(tm*, int)' does not match any in class 'Setter'
+ int Setter::getCurrYear(tm* date, int tm_year){
+     ^
+In file included from ../src/Setter.cpp:8:0:
+../src/Setter.h:32:6: error: candidate is: int Setter::getCurrYear(tm, int)
+  int getCurrYear(tm date, int tm_year);
+      ^
+make: *** [src/subdir.mk:23: src/Setter.o] Error 1
+21:05:11 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:05:45 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:07:47 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:25:38: error: no matching function for call to 'Setter::getCurrYear(tm&)'
+  int year = mytime.getCurrYear(*fecha);
+                                      ^
+In file included from ../src/Setters.cpp:10:0:
+../src/Setter.h:32:6: note: candidate: int Setter::getCurrYear(tm*)
+  int getCurrYear(tm* date);
+      ^
+../src/Setter.h:32:6: note:   no known conversion for argument 1 from 'tm' to 'tm*'
+../src/Setters.cpp:25:6: warning: unused variable 'year' [-Wunused-variable]
+  int year = mytime.getCurrYear(*fecha);
+      ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+21:08:04 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+../src/Setters.cpp: In function 'int main()':
+../src/Setters.cpp:25:6: warning: unused variable 'year' [-Wunused-variable]
+  int year = mytime.getCurrYear(fecha);
+      ^
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:08:20 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:19:06 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+../src/Setter.cpp: In constructor 'Setter::Setter()':
+../src/Setter.cpp:12:2: warning: statement has no effect [-Wunused-value]
+  hoy;
+  ^
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:19:28 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:20:35 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:21:50 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:23:03 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:23:35 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:24:51 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+In file included from ../src/Setters.cpp:10:0:
+../src/Setter.h: In function 'int main()':
+../src/Setter.h:23:6: error: 'int Setter::future' is private
+  int future;
+      ^
+../src/Setters.cpp:31:22: error: within this context
+  int future = mytime.future;
+                      ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+21:25:17 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+In file included from ../src/Setters.cpp:10:0:
+../src/Setter.h: In function 'int main()':
+../src/Setter.h:23:6: error: 'int Setter::future' is private
+  int future;
+      ^
+../src/Setters.cpp:31:23: error: within this context
+  int futures = mytime.future;
+                       ^
+../src/Setters.cpp:32:10: error: 'future' was not declared in this scope
+  cout << future << endl;
+          ^
+../src/Setters.cpp:31:6: warning: unused variable 'futures' [-Wunused-variable]
+  int futures = mytime.future;
+      ^
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+21:27:04 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+In file included from ../src/Setters.cpp:10:0:
+../src/Setter.h: In function 'int main()':
+../src/Setter.h:23:6: error: 'int Setter::future' is private
+  int future;
+      ^
+../src/Setters.cpp:31:9: error: within this context
+  mytime.future;
+         ^
+../src/Setters.cpp:31:9: warning: statement has no effect [-Wunused-value]
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+21:27:36 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+In file included from ../src/Setters.cpp:10:0:
+../src/Setter.h: In function 'int main()':
+../src/Setter.h:23:6: error: 'int Setter::future' is private
+  int future;
+      ^
+../src/Setters.cpp:31:9: error: within this context
+  mytime.future;
+         ^
+../src/Setters.cpp:31:9: warning: statement has no effect [-Wunused-value]
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+21:33:45 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+In file included from ../src/Setters.cpp:10:0:
+../src/Setter.h: In function 'int main()':
+../src/Setter.h:23:6: error: 'int Setter::future' is private
+  int future;
+      ^
+../src/Setters.cpp:31:9: error: within this context
+  mytime.future;
+         ^
+../src/Setters.cpp:31:9: warning: statement has no effect [-Wunused-value]
+make: *** [src/subdir.mk:23: src/Setters.o] Error 1
+21:34:10 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:35:34 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:36:11 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:36:36 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:40:59 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setter.d" -MT"src/Setter.o" -o "src/Setter.o" "../src/Setter.cpp"
+Finished building: ../src/Setter.cpp
+ 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:41:33 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
+21:43:05 **** Incremental Build of configuration Debug for project Setters ****
+make all 
+Building file: ../src/Setters.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
+Finished building: ../src/Setters.cpp
+ 
+Building target: Setters.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
+Finished building target: Setters.exe
+ 
