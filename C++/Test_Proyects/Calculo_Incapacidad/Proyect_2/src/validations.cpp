@@ -40,7 +40,7 @@ int inputMatchtoValue(int input, int currMonth){
 
 int validateMonth( int yearMatch, int inputMonth, int currMonth, int maxMonth){
 	int invalidMonth = 0;
-	if((yearMatch == 1 & inputMonth >currMonth ) || (inputMonth > maxMonth || inputMonth < 1 )){
+	if(((yearMatch == 1) & (inputMonth >currMonth )) || ((inputMonth > maxMonth) || (inputMonth < 1 ))){
 		invalidMonth = 1;
 	}
 	return invalidMonth;
@@ -59,7 +59,7 @@ int findMaxDaysMonth(int inputMonth, int bisiesto ){
 	int maxDaysMonth = 0;
 	if(inputMonth==1 || inputMonth==3 || inputMonth==5 || inputMonth==7 || inputMonth==8 || inputMonth==10|| inputMonth==12){
 		 maxDaysMonth = 31;
-	} else if (inputMonth == 2 & bisiesto == 1){
+	} else if ((inputMonth == 2) & (bisiesto == 1)){
 		 maxDaysMonth = 29;
 	} else if (inputMonth == 2){
 		maxDaysMonth = 28;

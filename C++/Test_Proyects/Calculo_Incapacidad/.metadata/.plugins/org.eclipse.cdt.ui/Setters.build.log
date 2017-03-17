@@ -1,4 +1,4 @@
-21:43:05 **** Incremental Build of configuration Debug for project Setters ****
+20:10:09 **** Incremental Build of configuration Debug for project Setters ****
 make all 
 Building file: ../src/Setters.cpp
 Invoking: Cygwin C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o
 Finished building target: Setters.exe
  
 
-21:43:07 Build Finished (took 2s.255ms)
+20:10:11 Build Finished (took 2s.319ms)
 

@@ -1,28 +1,6 @@
-11:07:02 **** Build of configuration Debug for project Proy1_v_1 ****
+20:10:08 **** Incremental Build of configuration Debug for project Proy1_v_1 ****
 make all 
-Building file: ../src/Proy1_v_1.cpp
-Invoking: Cygwin C++ Compiler
-g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proy1_v_1.d" -MT"src/Proy1_v_1.o" -o "src/Proy1_v_1.o" "../src/Proy1_v_1.cpp"
-../src/Proy1_v_1.cpp: In function 'int main()':
-../src/Proy1_v_1.cpp:20:6: warning: unused variable 'currMonth' [-Wunused-variable]
-  int currMonth = 1 + ltm->tm_mon;
-      ^
-../src/Proy1_v_1.cpp:21:6: warning: unused variable 'currDay' [-Wunused-variable]
-  int currDay = ltm->tm_mday;
-      ^
-../src/Proy1_v_1.cpp:24:12: warning: unused variable 'maxMonth' [-Wunused-variable]
-  const int maxMonth = 12;
-            ^
-../src/Proy1_v_1.cpp:27:12: warning: unused variable 'secPerDay' [-Wunused-variable]
-  const int secPerDay = 86400;
-            ^
-Finished building: ../src/Proy1_v_1.cpp
- 
-Building target: Proy1_v_1.exe
-Invoking: Cygwin C++ Linker
-g++  -o "Proy1_v_1.exe"  ./src/Proy1_v_1.o   
-Finished building target: Proy1_v_1.exe
- 
+make: Nothing to be done for 'all'.
 
-11:07:05 Build Finished (took 2s.234ms)
+20:10:08 Build Finished (took 319ms)
 

@@ -1,0 +1,16 @@
+/*
+ * Fechas.h
+ *
+ *  Created on: Mar 14, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef FECHAS_H_
+#define FECHAS_H_
+
+class Fechas {
+public:
+	Fechas();
+};
+
+#endif /* FECHAS_H_ */

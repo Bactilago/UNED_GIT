@@ -1,0 +1,16 @@
+/*
+ * Empleado.h
+ *
+ *  Created on: Mar 14, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef EMPLEADO_H_
+#define EMPLEADO_H_
+
+class Empleado {
+public:
+	Empleado();
+};
+
+#endif /* EMPLEADO_H_ */

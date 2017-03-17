@@ -1,0 +1,42 @@
+/*
+ * Fechas.h
+ *
+ *  Created on: Mar 14, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef FECHAS_H_
+#define FECHAS_H_
+#include <iostream>
+#include <ctime>
+#include "Empleado.h"
+using namespace std;
+
+class Fechas {
+
+private:
+	time_t hoy;
+	int currYear;
+	int currMonth;
+	int currDay;
+	int future;
+	static const int maxmonth = 12;
+	static const int minYear = 2000;
+	static const int secsPerYear = 86400;
+	int date[3];
+	int userYear;
+
+public:
+	Fechas();
+	time_t setNow();
+	tm* setTime();
+	int getCurrYear(tm* date);
+	int setFuture();
+	int setCurrMonth(tm* date);
+	int setCurrDay(tm* date);
+	void getUserDate();
+	void validYear();
+	int validateYear();
+};
+
+#endif /* FECHAS_H_ */

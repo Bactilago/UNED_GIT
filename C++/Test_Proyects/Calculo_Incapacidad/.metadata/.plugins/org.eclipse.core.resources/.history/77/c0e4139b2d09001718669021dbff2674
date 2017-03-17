@@ -1,0 +1,21 @@
+/*
+ * Empleado.h
+ *
+ *  Created on: Mar 14, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef EMPLEADO_H_
+#define EMPLEADO_H_
+#include <iostream>
+#include <ctime>
+using namespace std;
+#include "Fechas.h"
+
+class Empleado {
+public:
+	Empleado();
+	void header();
+};
+
+#endif /* EMPLEADO_H_ */

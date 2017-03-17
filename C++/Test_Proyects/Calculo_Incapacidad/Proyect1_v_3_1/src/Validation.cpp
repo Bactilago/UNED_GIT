@@ -130,7 +130,7 @@ int Validation::validateMes(int inputYear, int currYear, int inputMonth, int cur
 
 	tm Validation::capturaFecha(int year, int month, int day)
 		{
-			tm tm = {0};
+			tm tm {0};
 			tm.tm_year = year - 1900; // years count from 1900
 			tm.tm_mon = month - 1;    // months count from January=0
 			tm.tm_mday = day;         // days count from 1

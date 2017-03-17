@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : Incapacidad_v1.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Fechas.h"
+#include "Empleado.h"
+using namespace std;
+
+int main() {
+
+	Fechas hoy;
+	hoy.setNow();
+	hoy.setTime();
+	hoy.getCurrYear();
+	hoy.setCurrMonth();
+	hoy.setFuture();
+
+	Empleado print;
+	print.header();
+
+	hoy.getUserDate();
+
+
+	return 0;
+}

@@ -1,19 +1,6 @@
-20:30:26 **** Incremental Build of configuration Debug for project TimeTest ****
+20:10:11 **** Incremental Build of configuration Debug for project TimeTest ****
 make all 
-Building file: ../src/TimeTest.cpp
-Invoking: Cygwin C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TimeTest.d" -MT"src/TimeTest.o" -o "src/TimeTest.o" "../src/TimeTest.cpp"
-../src/TimeTest.cpp: In function 'int main()':
-../src/TimeTest.cpp:15:6: warning: unused variable 'ltm' [-Wunused-variable]
-  tm *ltm = localtime(&hoy);
-      ^
-Finished building: ../src/TimeTest.cpp
- 
-Building target: TimeTest.exe
-Invoking: Cygwin C++ Linker
-g++  -o "TimeTest.exe"  ./src/TimeTest.o   
-Finished building target: TimeTest.exe
- 
+make: Nothing to be done for 'all'.
 
-20:30:28 Build Finished (took 2s.249ms)
+20:10:12 Build Finished (took 367ms)
 

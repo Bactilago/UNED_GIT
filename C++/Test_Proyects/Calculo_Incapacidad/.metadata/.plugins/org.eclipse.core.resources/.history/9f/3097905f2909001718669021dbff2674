@@ -1,0 +1,15 @@
+/*
+ * Empleado.cpp
+ *
+ *  Created on: Mar 14, 2017
+ *      Author: Human Waste
+ */
+
+#include "Empleado.h"
+#include "Fechas.h"
+
+Empleado::Empleado() {
+	// TODO Auto-generated constructor stub
+
+}
+
