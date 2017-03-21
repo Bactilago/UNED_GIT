@@ -21,6 +21,7 @@ private:
 	int currMonth;
 	int currDay;
 	int future;
+	int futuro;
 	static const int maxmonth = 12;
 	static const int minYear = 2000;
 	static const int secsPerYear = 86400;
@@ -51,7 +52,7 @@ public:
 	bool avoidFutDates();
 	int findBisiesto();
 	bool matchYearMonth();
-	//void validateMonth();
+	void myDate();
 
 };
 

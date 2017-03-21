@@ -1,0 +1,23 @@
+/*
+ * Dates.cpp
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#include "Dates.h"
+#include "Employee.h"
+Dates::Dates() {
+	// TODO Auto-generated constructor stub
+
+}
+
+tm* Dates::getCurrTime(){
+	time_t hoy = time(0);
+	ltm = localtime(&hoy);
+	return ltm;
+}
+
+void Dates::myDate(){
+
+}

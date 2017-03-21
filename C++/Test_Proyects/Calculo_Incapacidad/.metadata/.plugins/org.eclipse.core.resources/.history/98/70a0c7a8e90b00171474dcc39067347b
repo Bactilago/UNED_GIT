@@ -1,0 +1,25 @@
+/*
+ * Dates.cpp
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#include "Dates.h"
+#include "Employee.h"
+Dates::Dates()
+
+{
+	// TODO Auto-generated constructor stub
+
+}
+
+
+void Dates::myDate(){
+	time_t hoy = time(0);
+	tm *ltm = localtime(&hoy);
+	currYear = 1900 + ltm->tm_year;
+	currMonth = 1 + ltm->tm_mon;
+	currDay = ltm->tm_mday;
+	cout << currDay << "/" << currMonth << "/" << currYear<< endl;
+}

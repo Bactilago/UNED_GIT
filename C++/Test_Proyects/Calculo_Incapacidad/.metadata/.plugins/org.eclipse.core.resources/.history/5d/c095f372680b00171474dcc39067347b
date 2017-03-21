@@ -1,0 +1,16 @@
+/*
+ * Dates.h
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef DATES_H_
+#define DATES_H_
+
+class Dates {
+public:
+	Dates();
+};
+
+#endif /* DATES_H_ */

@@ -40,5 +40,7 @@ int main() {
 	late.setCurrDay();
 	late.setFuture();
 	late.validateDate();
+
 	return 0;
+
 }

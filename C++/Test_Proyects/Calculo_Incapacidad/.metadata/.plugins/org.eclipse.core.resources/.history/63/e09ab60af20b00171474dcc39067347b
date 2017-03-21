@@ -1,0 +1,109 @@
+/*
+ * Dates.cpp
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#include "Dates.h"
+#include "Employee.h"
+Dates::Dates()
+
+{
+	// TODO Auto-generated constructor stub
+
+}
+
+
+void Dates::myDate(){
+	hoy = time(0);
+	ltm = localtime(&hoy);
+	currYear = 1900 + ltm->tm_year;
+	currMonth = 1 + ltm->tm_mon;
+	currDay = ltm->tm_mday;
+	future = currYear+1;
+	cout << currDay << "/" << currMonth << "/" << currYear<< endl;
+}
+
+void Dates::getUserDate(){
+	cout << "Digite el dia: " << flush;
+	cin >> date[0];
+	cout << "Digite el mes: " << flush;
+	cin >> date[1];
+	cout << "Digite el año : " << flush;
+	cin >> date[2];
+}
+
+bool Dates::checkFormat(){
+	int dateFormat = true;
+	if ((date[0]<=0 || date[0] >31) || ((date[1]<=0||date[1]>12)) || ((date[2]<2000 || date[2]>future))){
+		dateFormat = false;
+	}
+	return dateFormat;
+}
+
+int Dates::findBisiesto() {
+		 bisiesto=0;
+		if (date[2] % 4 == 0) {
+			bisiesto = 1;
+	    	}
+			return bisiesto;
+		} // findBisiesto
+
+
+int Dates::findMaxDaysMonth(){
+			maxMonth = 0;
+		if(date[1]==1 || date[1]==3 || date[1]==5 || date[1]==7 || date[1]==8 || date[1]==10|| date[1]==12){
+			 maxMonth = 31;
+		} else if ((date[1] == 2) & (findBisiesto() == 1)){
+			 maxMonth = 29;
+		} else if (date[1] == 2){
+			maxMonth = 28;
+		} else if (date[1] == 4 || date[1]==6 || date[1] ==9 || date[1]==11){
+			maxMonth = 30;
+		} else {
+			maxMonth = 0;
+		}
+		return maxMonth;
+	}
+
+bool Dates::matchYearMonth(){
+	ymMatch = true;
+	if ((date[2]==currYear) & (date[1]==currMonth)){
+		ymMatch = false;
+	}
+	return ymMatch;
+}
+
+bool Dates::avoidFutDates(){
+	FutDates = true;
+	if((date[2]==currYear) & (date[1]>currMonth)){
+	FutDates = false;
+		} else if (((!matchYearMonth()) & (date[0]>currDay))){
+			FutDates = false;
+		}
+	return FutDates;
+}
+
+
+void Dates::validateDate(){
+	getUserDate();
+	while ((!checkFormat()) || (!avoidFutDates())){
+	cout << "Error en formato de la fecha Format" << endl;
+	getUserDate();
+	}while(date[0] > findMaxDaysMonth() ){
+		cout << "Error en formato de la fecha Format Future" << endl;
+		getUserDate();
+	}
+	cout << "date" <<" " << date[0]<< "/" << date[1] << "/" <<date[2]<< endl;
+}
+
+
+tm Dates::capturaFecha(int year, int month, int day)
+		{
+			tm tm =0;
+			tm.tm_year = year - 1900; // years count from 1900
+			tm.tm_mon = month - 1;    // months count from January=0
+			tm.tm_mday = day;         // days count from 1
+			return tm;
+			}

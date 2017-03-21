@@ -1,15 +1,6 @@
-20:10:09 **** Incremental Build of configuration Debug for project Setters ****
+11:57:34 **** Incremental Build of configuration Debug for project Setters ****
 make all 
-Building file: ../src/Setters.cpp
-Invoking: Cygwin C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Setters.d" -MT"src/Setters.o" -o "src/Setters.o" "../src/Setters.cpp"
-Finished building: ../src/Setters.cpp
- 
-Building target: Setters.exe
-Invoking: Cygwin C++ Linker
-g++  -o "Setters.exe"  ./src/Setter.o ./src/Setters.o   
-Finished building target: Setters.exe
- 
+make: Nothing to be done for 'all'.
 
-20:10:11 Build Finished (took 2s.319ms)
+11:57:34 Build Finished (took 327ms)
 

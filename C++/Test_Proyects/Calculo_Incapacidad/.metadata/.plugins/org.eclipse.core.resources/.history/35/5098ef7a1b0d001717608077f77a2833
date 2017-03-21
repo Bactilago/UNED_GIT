@@ -1,0 +1,51 @@
+//============================================================================
+// Name        : IncapV2_0.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+#include "Dates.h"
+#include "Employee.h"
+
+
+int main() {
+
+	int continuar =1;
+	while (continuar != 1) {
+	Employee datos;
+	datos.printHeader();
+	datos.getName();
+	double subsDiario =datos.salarioPromedio();
+
+	int incap = -1; 							// Inicializa ciclo de solicitud de fechas y validacion
+	while (incap <= 0) {					    // se sale del ciclo cuando ambas fechas sean correctas
+	Dates fechaInicial;
+	fechaInicial.printIniMessage(1);
+	fechaInicial.myDate();
+	fechaInicial.validateDate();
+	tm fInicial = fechaInicial.capturaFecha();
+	time_t inicioIncap = mktime(&fInicial);
+
+	Dates fechaFinal;
+	fechaFinal.printIniMessage(2);
+	fechaFinal.myDate();
+	fechaFinal.validateDate();
+	fechaFinal.capturaFecha();
+	tm fFinal = fechaFinal.capturaFecha();
+	time_t finalIncap = mktime(&fFinal);
+
+	Dates incp;
+	incap = incp.valImputDates(finalIncap, inicioIncap);
+	}
+
+	datos.printResults(incap,subsDiario);
+
+	Employee salida;
+	continuar =salida.printExit();
+	}
+	return 0;
+}

@@ -1,0 +1,15 @@
+20:48:04 **** Incremental Build of configuration Debug for project pointers ****
+make all 
+Building file: ../src/pointers.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pointers.d" -MT"src/pointers.o" -o "src/pointers.o" "../src/pointers.cpp"
+Finished building: ../src/pointers.cpp
+ 
+Building target: pointers.exe
+Invoking: Cygwin C++ Linker
+g++  -o "pointers.exe"  ./src/pointers.o   
+Finished building target: pointers.exe
+ 
+
+20:48:07 Build Finished (took 3s.539ms)
+

@@ -1,0 +1,43 @@
+/*
+ * Dates.cpp
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#include "Dates.h"
+#include "Employee.h"
+Dates::Dates()
+
+{
+	// TODO Auto-generated constructor stub
+
+}
+
+
+void Dates::myDate(){
+	hoy = time(0);
+	ltm = localtime(&hoy);
+	currYear = 1900 + ltm->tm_year;
+	currMonth = 1 + ltm->tm_mon;
+	currDay = ltm->tm_mday;
+	future = currYear+1;
+	cout << currDay << "/" << currMonth << "/" << currYear<< endl;
+}
+
+void Dates::getUserDate(){
+	cout << "Digite el dia: " << flush;
+	cin >> date[0];
+	cout << "Digite el mes: " << flush;
+	cin >> date[1];
+	cout << "Digite el año : " << flush;
+	cin >> date[2];
+}
+
+bool Dates::checkFormat(){
+	int dateFormat = true;
+	if ((date[0]<=0 || date[0] >31) || ((date[1]<=0||date[1]>12)) || ((date[2]<2000 || date[2]>future))){
+		dateFormat = false;
+	}
+	return dateFormat;
+}

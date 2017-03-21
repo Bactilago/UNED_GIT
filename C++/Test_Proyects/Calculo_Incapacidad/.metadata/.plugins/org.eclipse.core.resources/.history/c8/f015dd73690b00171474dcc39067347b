@@ -1,0 +1,25 @@
+/*
+ * Dates.h
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef DATES_H_
+#define DATES_H_
+#include <iostream>
+using namespace std;
+#include "Employee.h"
+
+
+class Dates {
+private:
+
+	tm* ltm;
+
+public:
+	Dates();
+	tm* getCurrTime();
+};
+
+#endif /* DATES_H_ */

@@ -1,0 +1,50 @@
+/*
+ * Dates.h
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#ifndef DATES_H_
+#define DATES_H_
+#include <iomanip>
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::flush;
+using std::endl;
+#include "Employee.h"
+
+
+class Dates {
+private:
+	time_t hoy;
+	tm* ltm;
+	int currYear;
+	int currMonth;
+	int currDay;
+	int future;
+	int date[3];
+	int bisiesto;
+	int maxMonth;
+	bool FutDates;
+	bool ymMatch;
+	int diffD;
+	const int secPerDay = 86400;
+
+public:
+	Dates();
+	void myDate();
+	void getUserDate();
+	bool checkFormat();
+	int findBisiesto();
+	int findMaxDaysMonth();
+	bool avoidFutDates();
+	bool matchYearMonth();
+	int validateDate();
+	tm capturaFecha();
+	int valImputDates(time_t final, time_t inicial);
+	void printIniMessage(int option);
+};
+
+#endif /* DATES_H_ */

@@ -35,8 +35,6 @@ string Validation::getName(){
 	cout << endl;
 	double promedio = (salario[0] + salario[1] + salario[2])/3.0;
 	double subsDiario = promedio/30.0;
-	//cout << "Promedio de los 3 salarios es: " << promedio << endl;
-	//cout << "El monto del subsidio diario es: " << subsDiario << endl;
 	return subsDiario;
 }
 

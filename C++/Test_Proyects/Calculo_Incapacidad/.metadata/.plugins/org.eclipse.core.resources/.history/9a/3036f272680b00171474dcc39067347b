@@ -1,0 +1,14 @@
+/*
+ * Dates.cpp
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#include "Dates.h"
+
+Dates::Dates() {
+	// TODO Auto-generated constructor stub
+
+}
+

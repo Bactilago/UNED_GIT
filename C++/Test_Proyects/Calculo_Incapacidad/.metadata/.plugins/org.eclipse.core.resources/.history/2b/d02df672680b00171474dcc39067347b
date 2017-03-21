@@ -1,0 +1,14 @@
+/*
+ * Employee.cpp
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#include "Employee.h"
+
+Employee::Employee() {
+	// TODO Auto-generated constructor stub
+
+}
+

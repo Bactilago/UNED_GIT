@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : IncapV2_0.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+#include "Dates.h"
+#include "Employee.h"
+
+
+int main() {
+
+	myDate();
+
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

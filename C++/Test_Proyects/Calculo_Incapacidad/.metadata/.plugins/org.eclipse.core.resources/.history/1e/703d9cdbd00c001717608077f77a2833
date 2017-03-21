@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : IncapV2_0.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+#include "Dates.h"
+#include "Employee.h"
+
+
+int main() {
+
+
+
+	Dates fechaInicial;
+	fechaInicial.printIniMessage(1);
+	fechaInicial.myDate();
+	fechaInicial.validateDate();
+	tm fInicial = fechaInicial.capturaFecha();
+	time_t inicioIncap = mktime(&fInicial);
+
+	Dates fechaFinal;
+	fechaFinal.printIniMessage(2);
+	fechaFinal.myDate();
+	fechaFinal.validateDate();
+	fechaFinal.capturaFecha();
+	tm fFinal = fechaFinal.capturaFecha();
+	time_t finalIncap = mktime(&fFinal);
+
+	time_t diff = (finalIncap - inicioIncap ) / 86400;
+	cout << diff << endl;
+
+	return 0;
+}

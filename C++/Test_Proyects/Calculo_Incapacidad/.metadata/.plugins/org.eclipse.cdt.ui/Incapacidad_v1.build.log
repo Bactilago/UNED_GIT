@@ -1,15 +1,6 @@
-22:12:26 **** Incremental Build of configuration Debug for project Incapacidad_v1 ****
+11:57:32 **** Incremental Build of configuration Debug for project Incapacidad_v1 ****
 make all 
-Building file: ../src/Incapacidad_v1.cpp
-Invoking: Cygwin C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Incapacidad_v1.d" -MT"src/Incapacidad_v1.o" -o "src/Incapacidad_v1.o" "../src/Incapacidad_v1.cpp"
-Finished building: ../src/Incapacidad_v1.cpp
- 
-Building target: Incapacidad_v1.exe
-Invoking: Cygwin C++ Linker
-g++  -o "Incapacidad_v1.exe"  ./src/Empleado.o ./src/Fechas.o ./src/Incapacidad_v1.o   
-Finished building target: Incapacidad_v1.exe
- 
+make: Nothing to be done for 'all'.
 
-22:12:30 Build Finished (took 3s.623ms)
+11:57:32 Build Finished (took 317ms)
 

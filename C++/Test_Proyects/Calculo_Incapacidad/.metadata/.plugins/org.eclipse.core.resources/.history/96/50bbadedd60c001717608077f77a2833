@@ -1,0 +1,48 @@
+/*
+ * Employee.cpp
+ *
+ *  Created on: Mar 17, 2017
+ *      Author: Human Waste
+ */
+
+#include "Dates.h"
+#include "Employee.h"
+
+Employee::Employee() {
+	// TODO Auto-generated constructor stub
+
+}
+
+void Employee::printHeader(){
+	cout << "*************** Programa para Calcular Pago por Incapacidad de la CCSS ***************" << endl;
+	cout << endl;
+	cout << "Complete la informacion que se le solicita." << endl;
+	cout << "Para avanzar por cada paso digite la informacion solicitada y luego oprima Enter." << endl;
+	cout << endl;
+}
+
+
+string Employee::getName(){
+	cout << "Nombre y apellidos del empleado: " << flush;
+	cin >> name;
+	cin >> lastName1;
+	cin >> lastName2;
+	cout << endl;
+	fullName = name+" "+lastName1+" "+lastName2;
+	return fullName;
+}
+
+
+double Employee::salarioPromedio(){
+double salario[3];
+cout << "Digite el ultimo salario: " << flush;
+cin >> salario[0];
+cout << "Digite el penultimo salario: " << flush;
+cin >> salario[1];
+cout << "Digite el ante-penultimo salario: " << flush;
+cin >> salario[2];
+cout << endl;
+double promedio = (salario[0] + salario[1] + salario[2])/3.0;
+double subsDiario = promedio/30.0;
+return subsDiario;
+}
